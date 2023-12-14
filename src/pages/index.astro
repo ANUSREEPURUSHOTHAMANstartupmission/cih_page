@@ -1,0 +1,778 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout  title="Kerala Startup Mission">
+	
+    <div class="page-wrapper">
+		<header class="main-header-three z-40">
+            <nav class="main-menu main-menu-three">
+                <div class="main-menu-three__wrapper">
+                    <div class="main-menu-three__wrapper-inner">
+                        <div class="main-menu-three__logo">
+                            <a href="index.html"><img src="/assets/images/img/logo-white.svg" class="md:w-24 w-20 " alt=""></a>
+                        </div>
+                        <div class="main-menu-three__main-menu-box">
+                            <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                            
+                        </div>
+                        <div class="main-menu-three__search-cart-box">
+                            <div class="main-menu-three__search-box">
+                                <a href="#" class=" text-white hover:text-[#fc811b] text-sm" > Home</a>
+                            </div>
+                            <div class="main-menu-three__cart-box">
+								<a onclick="openForm()" class="thm-btn main-slider__btn">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Main Slider Start-->
+		<section class="main-slider">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+        "effect": "fade",
+        "pagination": {
+        "el": "#main-slider-pagination",
+        "type": "bullets",
+        "clickable": true
+        },
+        "navigation": {
+        "nextEl": "#main-slider__swiper-button-next",
+        "prevEl": "#main-slider__swiper-button-prev"
+        },
+        "autoplay": {
+        "delay": 5000
+        }}'>
+                <div class="swiper-wrapper">
+
+                   
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(/img/bg1.png);"></div>
+                        <!-- /.image-layer -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <h2 class="main-slider__title ">Construction <br> Innovation Hub </h2>
+                                      
+                                        <div class="main-slider__btn-box">
+                                            <a onclick="openForm()" class="thm-btn main-slider__btn">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(/img/bg1.png);"></div>
+                        <!-- /.image-layer -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <h2 class="main-slider__title ">Construction <br> Innovation Hub </h2>
+                                      
+                                        <div class="main-slider__btn-box">
+                                            <a onclick="openForm()" class="thm-btn main-slider__btn">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="swiper-pagination" id="main-slider-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                        <i class="icon-left-arrow"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                        <i class="icon-right-arrow"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Main Slider End-->
+
+        <!--About One Start-->
+        <section class="about-one">
+            <div class="about-one__shape-1 float-bob-y">
+                <img src="/assets/images/shapes/about-one-shape-1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-one__left">
+                            <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
+                                data-wow-duration="2500ms">
+                                <div class="about-one__img">
+                                    <img src="/img/ab11.png" alt="">
+                                </div>
+                                <div class="about-one__img-2">
+                                    <img src="/img/ab2.png" alt="">
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="about-one__right">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">A Joint Initiative of</span>
+                                <!-- <h2 class="section-title__title">World largest & trusted
+                                    construction co.</h2> -->
+                            </div>
+							<div class="about-one__points-box flex mx-auto items-center  flex-row  gap-3">
+                                <div class=" mx-auto">
+                                    
+                                    <div class="about-one__points-content">
+										<div class="">
+                                            <img src="/assets/images/img/logo.svg" class="lg:w-28 md:w-24 w-28">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" mx-auto">
+                                    
+                                    <div class="about-one__points-content">
+                                        <div class="">
+                                            <img src="/assets/images/img/logo.svg" class="lg:w-28 md:w-24 w-28">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about-one__text text-justify">The Construction Innovation Hub (CIH) aims to promote Innovation and Sustainability in Construction in India by fostering collaboration, innovation, and knowledge sharing among stakeholders in the construction industry. CIH will be focused on exploring solutions that address some of the biggest challenges facing the construction industry today which includes labour shortages, building materials, environmental impact, project delays, adoption of technology and inefficiencies in the construction process. CIH will provide a platform for relevant stakeholders in the construction value chain comprising of tech / product startups, architects, engineers, designers, contractors, masons, carpenters, designers, policymakers, academics, and civil society organizations to come together and share their experiences, best practices, and solutions for sustainable construction.</p>
+                           
+							<p class="about-one__text text-justify mt-4" style="display: none;" id="ab2">CIH is committed to sustainability and aims to reduce the environmental impact of construction projects using sustainable materials, eco-friendly building techniques, and smart buildings. The Hub will also promote the development of markets for affordable construction solutions. This will involve working with developers, contractors, and government agencies to identify opportunities for affordable housing and infrastructure projects.</p>
+                            <div class="about-one__btn-box mt-10 float-right">
+                                <a  class="about-one__btn thm-btn p-1 cursor-pointer" onclick="toggleParagraph()" id="button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About One End-->
+
+        <!--Counter One Start-->
+      
+
+		<section class="counter-three pt-24">
+            <div class="container">
+                <div class="row">
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="50">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">Startups</h3>
+                            
+                            <div class="counter-three__icon">
+                                <span class="icon-trophy"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single counter-three__single-2">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="500">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">Student Entrepreneurs
+							</h3>
+                          
+                            <div class="counter-three__icon">
+                                <span class="icon-success"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="1000">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">MSME Market Players
+							</h3>
+                            
+                            <div class="counter-three__icon">
+                                <span class="icon-employee"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single counter-three__single-4">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="10">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">Hackathons
+							</h3>
+                            
+                            <div class="counter-three__icon">
+                                <span class="icon-rating-stars"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                </div>
+            </div>
+        </section>
+        <!--Counter One End-->
+
+    
+<!-- key -->
+
+<section class="services-page-six">
+	<div class="container h-auto">
+		<div class=" grid  md:grid-cols-2 grid-cols-1 gap-4 lg:grid-cols-3 h-full ">
+			<!--Services Six Single Start-->
+			<div class="services-six__single h-auto">
+				<div class="">
+					<div class="services-six__icon">
+						<span class="icon-success"></span>
+					</div>
+					<h3 class="services-six__title"><a href="services-6.html">Support Startups</a>
+					</h3>
+					<p class="services-six__text">Identification, selection, and support startups across India with solutions in the construction / housing and with a special focus on affordable housing.</p>
+					
+				</div>
+			</div>
+			<!--Services Six Single End-->
+			<!--Services Six Single Start-->
+			<div class="services-six__single h-auto">
+				<div class="">
+					<div class="services-six__icon">
+						<span class="icon-ecosystem"></span>
+					</div>
+					<h3 class="services-six__title"><a href="services-6.html">Nurturing Early-Stage Entrepreneurs</a>
+					</h3>
+					<p class="services-six__text">Coordinating with Universities and colleges in Kerala to identify early-stage innovators in shelter tech and to extend CIH support to them through knowledge sharing, expert mentoring, domain specific workshops and bootcamps.</p>
+					
+				</div>
+			</div>
+			<!--Services Six Single End-->
+			<!--Services Six Single Start-->
+			<div class="services-six__single h-auto">
+				<div class="">
+					<div class="services-six__icon">
+						<span class="icon-maintenance"></span>
+					</div>
+					<h3 class="services-six__title"><a href="services-6.html">MSME support in the construction value chain</a></h3>
+					<p class="services-six__text">The Hub will organize training programs, workshops, and seminars to build the capacity of MSME’s in construction practices, including sustainable construction practices.</p>
+					
+				</div>
+			</div>
+			<!--Services Six Single End-->
+			<!--Services Six Single Start-->
+			<div class="services-six__single h-auto">
+				<div class="">
+					<div class="services-six__icon">
+						<span class="icon-industry"></span>
+					</div>
+					<h3 class="services-six__title">Industry Outreach</h3>
+					<p class="services-six__text">The Hub will facilitate networking and collaboration among stakeholders in the construction industry, investor and corporate connect events, business incubation, and mentorship programs.</p>
+					
+				</div>
+			</div>
+			<!--Services Six Single End-->
+			<!--Services Six Single Start-->
+			<div class="services-six__single h-auto">
+				<div class="">
+					<div class="services-six__icon">
+						<span class="icon-drilling-rig"></span>
+					</div>
+					<h3 class="services-six__title">Innovation and research</h3>
+					<p class="services-six__text">The Hub will support research and development of innovative technologies and materials for sustainable construction, including low-carbon building materials, smart buildings, and renewable energy systems.</p>
+					
+				</div>
+			</div>
+			<!--Services Six Single End-->
+			<!--Services Six Single Start-->
+			<div class="services-six__single h-auto">
+				<div class="">
+					<div class="services-six__icon">
+						<span class="icon-planning"></span>
+					</div>
+					<h3 class="services-six__title">Policy advocacy
+                    
+					</h3>
+					<p class="services-six__text">The Hub will work with policymakers to advocate for sustainable construction policies and regulations that promote resource efficiency, environmental protection, and social responsibility.
+
+                    </p>
+					
+				</div>
+			</div>
+            <div class="services-six__single h-auto">
+				<div class="">
+					<div class="services-six__icon">
+						<span class="icon-file"></span>
+					</div>
+					<h3 class="services-six__title">Access to funding
+
+                    
+					</h3>
+					<p class="services-six__text">Paid PoC pilots to early-stage startups and access to funding at various stages through The Terwilliger Centre and KSUM network.                                                 
+
+                    </p>
+					
+				</div>
+			</div>
+			<!--Services Six Single End-->
+		</div>
+	</div>
+</section>
+
+
+
+<section class="why-choose-two container">
+    <div class="why-choose-two__shape-1 float-bob-x">
+        <img src="assets/images/shapes/why-choose-two-shape-1.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6">
+                <div class="">
+                    <div class=" wow slideInLeft" data-wow-delay="100ms"
+                        data-wow-duration="2500ms">
+                        <div class="">
+                            <img src="/img/bbg.svg" alt="" class=" flex md:p-8 p-3 object-contain">
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6 my-auto">
+                <div class="why-choose-two__right">
+                    <div class="section-title text-left">
+                        <span class="section-title__tagline">Benefits</span>
+                        <!-- <h2 class="section-title__title">See why you should choose austry</h2> -->
+                    </div>
+                    <!-- <p class="why-choose-two__text">There are many variations of passages of available but the
+                        majority have suffered. Alteration in some form, lipsum is simply free text by injected
+                        humou or randomised words even believable.</p> -->
+                    <ul class="list-unstyled why-choose-two__points">
+                        <li>
+                            <div class="icon">
+                                <span class="icon-entrepreneur"></span>
+                            </div>
+                            <div class="content">
+                                <p>Benefit 01</p>
+                                <h4>Mentoring</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <span class="icon-industrial"></span>
+                            </div>
+                            <div class="content">
+                                <p>Benefit 02</p>
+                                <h4>Grants worth USD 150K</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <span class="icon-file"></span>
+                            </div>
+                            <div class="content">
+                                <p>Benefit 03</p>
+                                <h4>Support through KSUM schemes</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<section class="benefits-one">
+    <div class="benefits-one__shape-1 float-bob-x">
+        <img src="/img/focus.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 item-center my-auto">
+               
+                <div class="feature-three">
+                    <div class=" my-auto items-center justify-center flex flex-col">
+                        <div class="section-title text-left">
+                            <span class="section-title__tagline">Focus Sectors</span>
+                        </div>
+                        <div class=" my-auto grid sm:grid-cols-3 grid-cols-1 gap-4">
+                            <!--Feature Three Single Start-->
+                            <div class="wow fadeInUp" data-wow-delay="100ms">
+                                <div class="feature-three__single">
+                                    <div class="feature-three__count-and-icon">
+                                        <div class="feature-three__count"></div>
+                                        <div class="feature-three__icon">
+                                            <span class="icon-construction"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-three__title">Construction</h3>
+                                </div>
+                            </div>
+                            <!--Feature Three Single End-->
+                            <!--Feature Three Single Start-->
+                            <div class="wow fadeInUp" data-wow-delay="200ms">
+                                <div class="feature-three__single">
+                                    <div class="feature-three__count-and-icon">
+                                        <div class="feature-three__count"></div>
+                                        <div class="feature-three__icon">
+                                            <span class="icon-house"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-three__title">Housing</h3>
+                                </div>
+                            </div>
+                            <!--Feature Three Single End-->
+                            <!--Feature Three Single Start-->
+                            <div class="wow fadeInUp" data-wow-delay="300ms">
+                                <div class="feature-three__single">
+                                    <div class="feature-three__count-and-icon">
+                                        <div class="feature-three__count"></div>
+                                        <div class="feature-three__icon">
+                                            <span class="icon-appartments"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-three__title">Real Estate</h3>
+                                </div>
+                            </div>
+                            <!--Feature Three Single End-->
+                            <!--Feature Three Single Start-->
+                            <div class="wow fadeInUp" data-wow-delay="400ms">
+                                <div class="feature-three__single">
+                                    <div class="feature-three__count-and-icon">
+                                        <div class="feature-three__count"></div>
+                                        <div class="feature-three__icon">
+                                            <span class="icon-planet-earth"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-three__title">Green Building Materials</h3>
+                                </div>
+                            </div>
+
+                            <div class="wow fadeInUp" data-wow-delay="400ms">
+                                <div class="feature-three__single">
+                                    <div class="feature-three__count-and-icon">
+                                        <div class="feature-three__count"></div>
+                                        <div class="feature-three__icon">
+                                            <span class="icon-green-power"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-three__title">Climate Tech &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                                </div>
+                            </div>
+
+                            <div class="wow fadeInUp" data-wow-delay="400ms">
+                                <div class="feature-three__single">
+                                    <div class="feature-three__count-and-icon">
+                                        <div class="feature-three__count"></div>
+                                        <div class="feature-three__icon">
+                                            <span class="icon-factory"></span>
+                                        </div>
+                                    </div>
+                                    <h3 class="feature-three__title">Green Building Materials</h3>
+                                </div>
+                            </div>
+                            <!--Feature Three Single End-->
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-xl-5">
+                <div class="benefits-one__right">
+                    <div class="benefits-one__img clearfix">
+                        <img src="/img/AdobeStock_662191962 1.png" alt="">
+                        <div class="benefits-one__counter-box">
+                            <!-- <ul class="list-unstyled benefits-one__counter">
+                                <li>
+                                    <div class="benefits-one__counter-single">
+                                        <div class="benefits-one__counter-icon">
+                                            <span class="icon-rating"></span>
+                                        </div>
+                                        <div class="benefits-one__counter-content count-box">
+                                            <h3 class="count-text" data-stop="87450" data-speed="1500">00</h3>
+                                            <p class="benefits-one__counter-text">happy customers</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="benefits-one__counter-single">
+                                        <div class="benefits-one__counter-icon">
+                                            <span class="icon-file"></span>
+                                        </div>
+                                        <div class="benefits-one__counter-content count-box">
+                                            <h3 class="count-text" data-stop="34560" data-speed="1500">00</h3>
+                                            <p class="benefits-one__counter-text">Projects Completed</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+        <!--need-->
+        <!-- <section class="trusted-one">
+            <div class="trusted-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+                style="background-image: url(/assets/images/backgrounds/trusted-one-bg.jpg);">
+            </div>
+            <div class="container">
+                <div class="trusted-one__inner">
+                    <div class="trusted-one__video-link">
+                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                            <div class="trusted-one__video-icon">
+                                <span class="fa fa-play"></span>
+                                <i class="ripple"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="trusted-one__title count-box">Trusted By Additional Than <span class="count-text"
+                            data-stop="450000" data-speed="1500">00</span> <br>Upbeat Individuals</h3>
+                    <div class="trusted-one__btn-box">
+                        <a href="about.html" class="trusted-one__btn thm-btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--Trusted One End-->
+
+      <!-- need -->
+        <!-- <section class="best-construction">
+            <div class="best-construction__shape-1 float-bob-x">
+                <img src="/assets/images/shapes/best-construction-shape-1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="best-construction__left">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">What Else We Do</span>
+                                <h2 class="section-title__title">Best construction &
+                                    building business</h2>
+                            </div>
+                            <h3 class="best-construction__title">committed to providing our customers with exceptional
+                                service.</h3>
+                            <p class="best-construction__text">Lorem Ipsum is simply dummy text of free available in
+                                market the printing and typesetting industry has been the industry's standard dummy text
+                                ever.</p>
+                            <div class="best-construction__progress">
+                                <div class="best-construction__progress-single">
+                                    <h4 class="best-construction__progress-title">Construction</h4>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="78%">
+                                            <div class="count-text">78%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-construction__progress-single">
+                                    <h4 class="best-construction__progress-title">Building</h4>
+                                    <div class="bar marb-0">
+                                        <div class="bar-inner count-bar" data-percent="60%">
+                                            <div class="count-text">36%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="best-construction__right">
+                            <div class="best-construction__img-box">
+                                <div class="best-construction__img">
+                                    <img src="/assets/images/resources/best-construction-img-1.jpg" alt="">
+                                </div>
+                                <div class="best-construction__name">
+                                    <p>Austry Construction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--Best Construction End-->
+
+   <section class=" mx-auto flex py-24">
+        <div class=" mx-auto md:w-2/4 w-full">
+            <div class=" grid sm:grid-cols-3 grid-cols-1 gap-4">
+                <div class=" border">
+                    <img src="/img/p1.png">
+                </div>
+                <div class=" border">
+                    <img src="/img/p2.png">
+                </div>
+                <div class=" border">
+                    <img src="/img/p3.png">
+                </div>
+            </div>
+        </div>
+   </section>
+
+
+
+   
+
+
+    </div>
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img src="/assets/images/resources/logo-1.png" width="130"
+                        alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@austry.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+
+
+
+
+
+
+    <div id="overlay" class="overlay z-40">
+        <div class="popup-form lg:w-3/5 md:w-3/4  h-5/6 w-full relative">
+        
+          <span class="z-50 close-btn absolute  top-0 right-0 text-black cursor-pointer"  onclick="closeForm()"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+          
+          </span>
+        
+          <iframe src="https://zfrmz.com/Gyw3T0Aixy6nxI2q4qeW" class=" w-full h-full"></iframe>
+        </div>
+    </div>
+</Layout>
+
+<script is:inline>
+	function openForm() {
+	  document.getElementById("overlay").style.display = "flex";
+	}
+  
+	function closeForm() {
+	  document.getElementById("overlay").style.display = "none";
+	}
+  </script>
+
+
+<script is:inline>
+	 function toggleParagraph() {
+      var paragraph = document.getElementById("ab2");
+      var button = document.getElementById("button");
+
+      if (paragraph.style.display === "none") {
+        paragraph.style.display = "block";
+        button.innerHTML = "Read less";
+      } else {
+        paragraph.style.display = "none";
+        button.innerHTML = "Read more";
+      }
+    }
+</script>
+
+<style>
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .popup-form {
+      background-color: white;
+      padding: 20px;
+	  padding-top: 30px;
+      border-radius: 2px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+  </style>
