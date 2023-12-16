@@ -5157,11 +5157,13 @@ ul {
   position: relative;
   display: block;
   text-align: center;
-  padding: 120px 0 180px;
-  background-color: #101c30;
+  
+  background-color: #101c30bd;
   z-index: 1;
 }
-
+.trusted-one_one_one{
+  padding: 120px 0 180px;
+}
 .trusted-one__bg {
   position: absolute;
   top: 0;
@@ -5169,10 +5171,9 @@ ul {
   right: 0;
   bottom: 0;
   opacity: .20;
-  mix-blend-mode: luminosity;
+  
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+ 
   z-index: -1;
 }
 
@@ -5447,7 +5448,7 @@ ul {
   position: relative;
   display: block;
   margin-left: -3px;
-  margin-right: -375px;
+  margin-right: -140px;
 }
 
 .best-construction__img-box {
@@ -15054,7 +15055,7 @@ ul {
 .services-page-six {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 80px 0 80px;
 }
 
 .services-page-six .services-six__single:after {
