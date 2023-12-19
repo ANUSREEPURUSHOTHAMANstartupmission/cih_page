@@ -7894,7 +7894,7 @@ ul {
 .team-two {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 80px 0 90px;
   z-index: 1;
 }
 
@@ -12531,14 +12531,14 @@ ul {
   position: relative;
   display: block;
   background-color: var(--austry-extra);
-  padding: 120px 0 0;
+  padding: 60px 0 0;
   z-index: 1;
 }
 
 .testimonial-five__shape-1 {
   position: absolute;
   top: 0;
-  right: 0;
+  
   mix-blend-mode: luminosity;
   opacity: .10;
   z-index: -1;
