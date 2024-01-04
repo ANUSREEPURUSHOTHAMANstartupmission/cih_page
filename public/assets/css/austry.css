@@ -2968,7 +2968,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(16, 28, 48, .50);
+  background-color: rgb(16 28 48 / 88%);
   z-index: 1;
 }
 
@@ -8529,7 +8529,7 @@ ul {
 .about-three__img-2 {
   position: absolute;
   bottom: 40px;
-  right: -107px;
+  right: -100px;
   box-shadow: 9.83px 6.883px 40px 0px rgba(0, 0, 0, 0.17);
 }
 
